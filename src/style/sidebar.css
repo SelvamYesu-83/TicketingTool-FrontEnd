@@ -1,0 +1,93 @@
+/* Sidebar Container */
+.sidebar {
+  width: 250px;
+  height: 100%;
+  background: linear-gradient(#FF6F09, #FFBA89);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+/* Navigation Menu */
+.nav-menu {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Space between items */
+}
+
+/* Navigation Items (Main Modules) */
+.nav-item {
+  background: none;
+  border: none;
+  width: 100%;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  gap: 15px; /* ✅ Increased gap between icon and text */
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  text-align: left;
+}
+
+/* Hover Effect */
+.nav-item:hover {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+}
+
+/* Icon Styling */
+.icon {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0; /* ✅ Prevents icon from shrinking */
+}
+
+/* Main Menu Items */
+.main-menu {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 15px;
+}
+
+/* Submenu Container */
+.submenu {
+  list-style-type: none;
+  padding-left: 35px; /* ✅ Indented properly under the main menu */
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+/* Submenu Items */
+.sub-menu-item {
+  width: 100%;
+}
+
+.sub-menu-btn {
+  background: none;
+  border: none;
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  padding: 8px 10px;
+  cursor: pointer;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  gap: 15px; /* ✅ Space between submodule icon and text */
+  transition: background 0.3s ease;
+}
+
+/* Submenu Hover Effect */
+.sub-menu-btn:hover {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 5px;
+}

@@ -1,0 +1,174 @@
+.TicketBox {
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.Ticket-Container{
+gap: 20px;
+}
+
+.Ticket-1,.Ticket-2,.Ticket-3,.Ticket-4{
+display: flex;
+flex-direction: row;
+}
+
+.TicketDetails {
+width: 640px;
+height: fit-content;
+padding: 8px 18px;
+background: #fbfbfb;
+display: flex;
+flex-direction: column;
+gap: 4.5px;
+}
+
+.Top-Text{
+display: flex;
+flex-direction: row;
+gap: 440px;
+font-family: 'Poppins', sans-serif;
+font-size: small;
+}
+
+.Ticket-No-Bg {
+background: #ffebd3;
+border-radius: 4px;
+padding: 0 8px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.Ticket-No {
+color: #3a2685;
+font-size: small;
+font-family: 'Poppins', sans-serif;
+font-weight: 700;
+line-height: 20px;
+}
+
+.TicketName {
+color: #2f3a5f !important;
+font-family: 'Poppins', sans-serif;
+font-weight: 700;
+}
+
+.Description {
+    color: #2f3a5f !important;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+
+.StatusColor {
+width: 70px;
+height: 20px;
+background: linear-gradient(90deg, #95fe9c 0%, #48c150 100%);
+border-radius: 20px;
+}
+
+.AssignDetails {
+padding: 12px 12px 12px 12px;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+gap: 70px;
+}
+
+.Column {
+display: inline-flex;
+flex-direction: column;
+gap: 13px;
+}
+
+.Text {
+color: #2e2e2e;
+font-size: 12px;
+font-family: Poppins, sans-serif;
+font-weight: 400;
+}
+
+.sidebar {
+height: 100%;
+color: white;
+display: flex;
+flex-direction: column;
+padding: 0px;
+margin-top: 0px;
+padding-top: 0cm;
+padding-left: 0cm;
+border-top-right-radius: 40px; 
+border-bottom-right-radius: 40px;
+}
+
+.active{
+height: 100px;
+width: 100px;
+}
+
+.btn{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding-left: 500px;
+}
+
+.btn-close,.btn-view{
+    width: fit-content;
+    height: 35px;
+    background-color: #20409A;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+.TicketBox {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.Ticket-Container {
+    width: 90%;
+    margin: 20px 0;
+}
+
+.ticket-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.ticket-table th,
+.ticket-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.ticket-table th {
+    background-color: #f4f4f4;
+}
+
+.pagination {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.pagination button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+.pagination button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}

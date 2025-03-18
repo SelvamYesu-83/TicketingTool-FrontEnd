@@ -1,0 +1,129 @@
+.form-container {
+  max-width: 100%;
+  color: #333;
+  border-radius: 1px;
+  font-family: 'Poppins', sans-serif;
+  padding: 20px;
+  box-sizing: border-box;
+  box-shadow: 0 1px 2px 0 hsl(240, 1%, 88%), 0 0px 0px 0 #b4b5b8;
+  background: #f9f9f9;
+}
+
+.ticket-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  width: 100%;
+}
+
+.form-group label {
+  font-size: 14px;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 8px;
+  color: #555;
+}
+
+.form-group label span {
+  color: #e74c3c;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  background: #fff;
+  color: #333;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  border-color: #20409A;
+  outline: none;
+}
+
+.form-group textarea {
+  resize: none;
+  height: 120px;
+}
+
+.form-row {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.form-row .form-group {
+  flex: 1;
+  min-width: 300px;
+}
+
+.button-group {
+  display: flex;
+  justify-content: flex-end;
+  gap: 15px;
+  padding-top: 20px;
+
+}
+
+.cancel-btn,
+.submit-btn {
+  padding: 13px 15px;
+  border: none;
+  font-size: small;
+  font-family: 'Poppins', sans-serif;
+  cursor: pointer;
+  border-radius: 6px;
+  height: fit-content;
+  transition: background-color 0.3s ease;
+}
+
+.cancel-btn {
+  background: #FF6F09;
+  color: white;
+}
+
+.cancel-btn:hover {
+  background: #f86700;
+}
+
+.submit-btn {
+  background: #20409A;
+  color: white;
+}
+
+.attach {
+  font-size: 14px;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 8px;
+  padding: 12px 0;
+  color: #333;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+input[type="file"] {
+  display: inline-block;
+  padding: 8px 16px;
+  cursor: pointer;
+  color: #20409A;
+  border-radius: 6px;
+  background: #fff;
+  transition: background-color 0.3s ease;
+}
+
+input[type="file"]:hover {
+  background: #ffffff;
+  color: rgb(255, 60, 0);
+} 

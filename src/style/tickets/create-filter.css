@@ -1,0 +1,66 @@
+
+.container{
+  width: 100%;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 0px;
+}
+
+/* Container */ 
+.filter-container {
+    width: fit-content;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+/* Form Layout */
+.filter-form {
+display: flex;
+gap: 20px;
+flex-wrap: wrap;
+background: white;
+border-radius: 10px;
+}
+
+/* Select and Input Styles */
+.filter-select,
+.filter-input {
+padding: 8px;
+font-size: 14px;
+font-family: 'Poppins', sans-serif;
+border: 1px solid #ccc;
+border-radius: 5px;
+width: 300px;
+}
+
+/* Button Style */
+.filter-button {
+background-color: #20409A;
+color: white;
+border: none;
+padding: 10px 15px;
+cursor: pointer;
+border-radius: 5px;
+}
+
+.filter-button:hover {
+background-color: #20409A;
+}
+
+.open-modal-btn,
+  .submit-btn {
+    background-color: #20409A;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .open-modal-btn:hover,
+  .submit-btn:hover {
+    background-color: #20409A;
+  }

@@ -1,0 +1,191 @@
+.CloseTicket-Container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  width:99%;
+  flex-direction: column;
+  border-radius: 1px;
+  font-family: 'Poppins', sans-serif;
+  font-size: small;
+  padding: 25px 15px;
+  box-sizing: border-box;
+  box-shadow: 0 1px 2px 0 hsl(240, 1%, 88%), 0 0px 0px 0 #515255;
+  background: #f9f9f9;
+}
+  
+  .CloseTicket-first{
+    display: flex;
+    flex-direction: row;
+    gap: 270px;
+  }
+  
+  /* .first-details,.Second-details{
+    display: flex;
+    flex-direction: row;
+  } */
+  
+  .CloseTicket-Second{
+    width: 100%;
+    height: 100%;
+  }
+  
+  .closeticket{
+      color: #3754A5;
+      text-align: left;
+      padding-left: 20px;
+      display: flex;
+      flex-direction: column;
+    }
+    .close-ticketno{
+      text-align: left;
+      display: flex;
+      width: fit-content;
+    }
+    .close-projectmodule{
+      text-align: left;
+      display: flex;
+      width: fit-content;
+    }
+    .close-module{
+      text-align: left;
+      display: flex;
+      width: fit-content;
+    }
+  
+    .close-category{
+      text-align: left;
+      display: flex;
+      width: fit-content;
+    }
+  
+    .close-priority{
+      text-align: left;
+      display: flex;
+      width: fit-content;
+    }
+  
+    .close-source{
+      text-align: left;
+      display: flex;
+      width: fit-content;
+    }
+  
+    .close-subject{
+      text-align: left;
+      display: flex;
+      width: fit-content;
+    }
+  
+    .close-rasied{
+      text-align: left;
+      display: flex;
+      width: fit-content;
+    }
+    .close-problem,.close-problem2{
+      text-align: left;
+      display: flex;
+      width: fit-content;
+    }
+    
+    .close-duedate{
+      text-align: left;
+      display: flex;
+      width: fit-content;
+    }
+    .close-solution{
+      text-align: left;
+      display: flex;
+      padding-bottom: 20px;
+      width: fit-content;
+    }
+    
+    
+    .close-ticketno-colon{
+      margin-left: 130px;
+    }
+    .close-projectmodule-colon{
+      margin-left: 127px;
+    }
+    .close-module-colon{
+      margin-left: 171px;
+    }
+  
+    .close-category-colon{
+      margin-left: 150px;
+    }
+  
+    .close-priority-colon{
+      margin-left: 162px;
+    }
+  
+    .close-source-colon{
+      margin-left: 162px;
+    }
+  
+    .close-subject-colon{
+      margin-left: 171px;
+    }
+    .close-rasied-colon{
+      margin-left: 31px;
+    }
+    .close-problem-colon{
+      margin-left: 97px;
+    }
+
+    .close-problem2-colon{
+      margin-left: 112px;
+    }
+
+    .close-duedate-colon{
+      margin-left: 159px;
+    }
+    .close-solution-colon{
+      margin-left: 167px;
+      display: flex;
+      flex-direction: column;
+      padding-bottom: 50px;
+    }
+    
+    .bottom-btn{
+      display: flex;
+      flex-direction: row;
+      width: fit-content;
+      gap: 600px;
+    }
+  
+    .Close-container{
+      text-align: center;
+      margin-left: 28pxx;
+      margin-top: 30px;
+    }
+    .Close button{
+      padding: 10px 15px;
+      background-color: #20409A;
+      color: white;
+      border-radius: 5px;
+      border: none;
+      cursor: pointer;
+  
+    }
+
+    .close-download button{
+      border: none;
+      cursor: pointer;
+      color: #20409A;
+      font-weight: bold;
+      margin-top: 30px;
+      background: #f9f9f9;
+    }
+    
+  
+    .description{
+      margin-top: 15px;
+      margin-left: 10px;
+      padding-bottom: 40px;
+      padding-right: 360px;
+      text-align: left;
+      width: 300px;
+      margin-right: 35px;
+      
+    }
+    
